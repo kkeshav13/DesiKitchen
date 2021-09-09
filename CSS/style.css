@@ -1,0 +1,179 @@
+        body{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .footer{
+        background-color: #DFFF00 ;
+        color: black;
+        position: relative;
+        width: 100%;
+        min-height: 30px;
+        text-align: center;
+        }
+
+        .row{
+            width: 100px
+            height: 100px;
+        }
+
+        .row a {
+            display: none;
+        }
+
+        .row a:hover{
+            display: block;
+        }
+
+        .section {
+            min-height: 660px;
+            overflow: hidden;
+            position: relative;
+            padding: 90px 10px 0px;
+            }
+
+        #home{
+        background-image: url(../images/bg2.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: absolute;
+        }
+
+
+        #navbar {
+              margin-right: 1vw;
+              position: fixed;
+              width: 100%;
+              display: block;
+              transition: top 0.1s;
+              line-height: .5em;
+              background-color: black;
+            }
+
+        #topnav a {
+              letter-spacing: 5px;
+              color: white;
+              text-align: center;
+              margin-left: 1vw;
+              padding-right: 30px;
+              padding-left: 30px;
+              padding-top: 15px;
+              padding-bottom: 15px;;
+              font-size: 17px;
+              font-weight: bold;
+          }
+
+        #topnav a:hover {
+              color: #DFFF00;
+              font-weight: bold;
+              border-top: solid;
+              border-bottom: solid;
+              border-radius: 15px 0px;
+              transition: border 0.1s ease;
+            }
+
+
+        .top-empty-navbar{
+            padding-top: 3vh;
+        }
+        .bottom-empty-navbar{
+            padding-top: 3vh;
+        }
+
+        .logo{
+            color: White;
+            font-weight: bold;
+            font-size: 30px;
+            width: 250px;
+        }
+        .logo:hover{
+            color: #DFFF00;
+            text-decoration: none;
+        }
+
+        .head-container{
+            margin-top: 10vh;
+        }
+
+        .heading{
+            background-color: white;
+            color: black;
+            text-align: center;
+            font-size: 6vw;
+            font-weight: bold;
+            border-radius: 20% 0% 20% 0% ;
+            background-size: 5vw 5vh !important;
+        }
+        .sub-heading1{
+            margin-bottom: 5vh;
+            background-color: orange;
+            color: black;
+            text-align: center;
+            font-size: 3.5vw;
+            font-weight: bold;
+            font-style: italic;
+            border-radius: 20% 0% 20% 0% ;
+        }
+        .sub-heading2{
+            margin-top: 5vh;
+            background-color: limegreen;
+            color: black;
+            text-align: center;
+            font-size: 3.5vw;
+            font-style: italic;
+            font-weight: bold;
+            border-radius: 20% 0% 20% 0% ;
+        }
+
+            .dishes-heading{
+                font-size: 5vw;
+                font-weight: bold;
+                margin-bottom: 10vh;
+                color: #DFFF00;
+            }
+            @media screen and (max-width: 750px){
+                .dishes-heading{
+                    margin-bottom: 2vh;
+                }
+            }
+            .form-heading{
+                font-size: 5vw;
+                font-weight: bold;
+                margin-bottom: 10vh;
+                color: #DFFF00;
+            }
+
+            @media screen and (max-width: 700px){
+                .form-heading{
+                    margin-bottom: 2vh;
+                }
+            }
+
+            .btn-primary{
+                text-align: center;
+                align-items: center;
+                background-color: #DE3163;
+                color: white;
+                font-weight: bold;
+                border: none;
+            }
+            .btn-primary:hover{
+                color: black;
+                background-color: #DFFF00;
+            }
+
+            label{
+                float: left;
+                font-size: 2vw;
+            }
+            @media screen and (max-width: 450px){
+                label{
+                    font-size: 5vw;
+                }
+            }
+
+            input{
+                font-size: 5vw;
+            }
+
